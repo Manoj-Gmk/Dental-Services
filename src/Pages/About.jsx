@@ -7,10 +7,10 @@ function About() {
 
         <div className="clinic-background">
           <p className="para">
-            <strong>Established in 2012</strong>, HappySmileClinic Dental has
-            been committed to delivering exceptional dental care with a gentle
-            touch. Located in the heart of the city, our clinic is known for its
-            modern infrastructure, warm environment, and patient-first approach.
+            <strong>Established in 2012</strong>, SmileHaven Dental has been
+            committed to delivering exceptional dental care with a gentle touch.
+            Located in the heart of the city, our clinic is known for its modern
+            infrastructure, warm environment, and patient-first approach.
           </p>
           <p className="para">
             Over the years, we have grown into a trusted name for families
@@ -22,7 +22,7 @@ function About() {
             Our dental professionals bring over{" "}
             <strong>15 years of combined experience</strong>, and continuously
             stay updated with the latest advancements in dentistry. At
-            HappySmileClinic, we blend technology and compassion to ensure a
+            SmileHaven, we blend technology and compassion to ensure a
             stress-free experience for every patient.
           </p>
           <p className="para">

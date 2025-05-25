@@ -12,11 +12,15 @@
 p{
     text-align: left;
 }
+#first{
+    font-size: 1.6rem;
+}
 @media (max-width: 768px) {
     .FAQ-container{
         width: auto;
     }
-    .questions{
-        font-size: 1.2rem;
+    #first{
+        font-size: 1.1rem;
     }
+
 }

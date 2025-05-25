@@ -16,7 +16,7 @@ function Contact() {
           <strong>Phone:</strong> +91 98XXX XXXXX
         </p>
         <p className="para">
-          <strong>Email:</strong> happysmilecare@example.com
+          <strong>Email:</strong> smilehaven@example.com
         </p>
         <p className="para">
           <strong>Address:</strong> 123 Smile Street, Hyderabad, Telangana,

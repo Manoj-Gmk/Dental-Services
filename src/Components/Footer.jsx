@@ -7,16 +7,18 @@ function Footer() {
         <div className="Address">
           <p
             style={{
-              fontSize: window.innerWidth < 768 ? "15px" : "20px",
-              fontWeight: window.innerWidth < 768 ? "" : "600",
+              fontSize: window.innerWidth < 768 ? "18px" : "20px",
+              fontWeight: window.innerWidth > 768 ? "" : "600",
             }}
             id="name"
           >
-            HappySmileClinic Dental Clinic
+            SmileHaven Dental Clinic
           </p>
-          <p>123, Main-Street, Hyderabad, Telangana</p>
-          <p>Phone: +91-98XXX XXXXX</p>
-          <p>Email: contact@smilecare.com</p>
+          <div>
+            <p>123, Main-Street, Hyderabad, Telangana</p>
+            <p>Phone: +91-98XXX XXXXX</p>
+            <p>Email: contact@smilehaven.com</p>
+          </div>
         </div>
         <div className="Footer-Links">
           <ul>
@@ -47,8 +49,10 @@ function Footer() {
               </Link>
             </li>
             <li id="appointment">
-              <i className="bi bi-chevron-double-right icons"></i>Book
-              Appointment
+              <Link to="/contact">
+                <i className="bi bi-chevron-double-right icons"></i>Book
+                Appointment
+              </Link>
             </li>
           </ul>
         </div>

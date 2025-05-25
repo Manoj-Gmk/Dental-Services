@@ -64,7 +64,7 @@ marquee{
     color: rgb(180, 21, 21);
 }
 #btn{
-  margin-left: 20px;
+  margin-left: 22px;
 }
 
 @keyframes appear{
@@ -87,10 +87,6 @@ marquee{
   padding: 10px 20px;
   font-size: 1.5rem;
 }
-.questions{
-  font-size: 1.6rem;
-}
-
 
 /*Small Screens*/
 @media (max-width: 768px) {
@@ -122,7 +118,7 @@ marquee{
   #btn{
     margin-left: 10px;
   }
-  .questions{
-    font-size: 1.4rem;
-  }
+  .Appointment{
+     padding: 3px 3px;
+}
 } 

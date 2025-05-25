@@ -49,6 +49,6 @@ button:hover{
 }
 @media (max-width: 768px) {
     .Form-container{
-        max-width: 400px;
+        max-width: 350px;
     }
 }

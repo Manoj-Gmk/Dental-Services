@@ -3,13 +3,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap:24px;
-  padding: 20px; /* Adds padding inside the grid container */
-  margin: 20px auto; /* Centers the grid container with 20px margin on top and bottom */
-  max-width: 1200px;/* Limits the container width to 1200px*/
+  padding: 20px; 
+  margin: 20px auto; 
+  max-width: 1200px;
 }
 .service-block {
   background-color: #f7f9fc;
-  margin: 1.5rem 0;
+  margin: 0.50rem 0;
   padding: 1rem;
   border-radius: 8px;
 }
@@ -26,3 +26,4 @@
     line-height: 1.6;
     margin-bottom: 20px;
 }
+

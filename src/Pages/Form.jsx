@@ -17,11 +17,12 @@ function Form() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
+
     axios
       .post("https://jsonplaceholder.typicode.com/posts", values)
       .then((response) => console.log(response))
       .catch((err) => console.log(err));
-
+    alert("Thank you! Your message has been submitted.");
     setValues(initialstate);
   };
   return (

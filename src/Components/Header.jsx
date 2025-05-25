@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <header>
-        <h1>HappySmileClinic</h1>
+        <h1>SmileHaven</h1>
         <div className="icons">
           <ul>
             <li>

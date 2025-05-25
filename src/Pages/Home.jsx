@@ -1,10 +1,11 @@
 import FAQ from "../Components/FAQ";
+import { Link } from "react-router-dom";
 import "./Home.css";
 function Home() {
   return (
     <>
       <div className="hero">
-        <img className="banner" src="banner.jpg" />
+        <img className="banner" src="./banner.jpg" alt="Banner Image" />
         <div>
           <marquee>
             Brighten Your Smile with Expert Care, Providing gentle and trusted
@@ -13,11 +14,11 @@ function Home() {
         </div>
 
         <div>
-          <h1 className="heading">Welcome to HappySmileClinic Dental Clinic</h1>
+          <h1 className="heading">Welcome to SmileHaven Dental Clinic</h1>
 
           <p className="para">
-            At <strong>HappySmileClinic Dental Clinic</strong>, we believe that
-            a healthy smile is the foundation of overall well-being. Located in
+            At <strong>SmileHaven Dental Clinic</strong>, we believe that a
+            healthy smile is the foundation of overall well-being. Located in
             the heart of the city, our clinic offers a warm, welcoming
             environment where your comfort is our top priority.
           </p>
@@ -31,26 +32,33 @@ function Home() {
             here to make your dental journey smooth and stress-free.
           </p>
           <p className="para">
-            <a className="button"> Book your appointment today</a> and take the
-            first step toward a healthier, brighter smile!
+            <Link to="/contact" className="button">
+              {" "}
+              Book your appointment today
+            </Link>{" "}
+            and take the first step toward a healthier, brighter smile!
           </p>
         </div>
 
         <div>
           <h1 className="heading"> Our Dental Services</h1>
           <p className="para">
-            At <strong>HappySmileClinic Dental Clinic</strong>, we offer a wide
-            range of dental services designed to meet the needs of every
-            patient. Our goal is to provide quality care in a comfortable
-            environment using the latest techniques and technology. Here's a
-            quick look at what we offer:
+            At <strong>SmileHaven Dental Clinic</strong>, we offer a wide range
+            of dental services designed to meet the needs of every patient. Our
+            goal is to provide quality care in a comfortable environment using
+            the latest techniques and technology. Here's a quick look at what we
+            offer:
           </p>
         </div>
 
         <div className="animation">
           <h2 className="heading"> General Dentistry</h2>
           <div className="Service-container">
-            <img className="image-container" src="General Dentistry.jpg" />
+            <img
+              className="image-container"
+              src="./General Dentistry.jpg"
+              alt="General Image"
+            />
             <div>
               <p className="para">
                 We provide routine dental check-ups, cleanings, and cavity
@@ -71,7 +79,8 @@ function Home() {
           <div className="Reverse-container">
             <img
               className="flip-image-container"
-              src="Cosmetic Dentistry.jpeg"
+              src="./Cosmetic Dentistry.jpeg"
+              alt="Cosmetic Image"
             />
             <div>
               <p className="para">
@@ -92,7 +101,11 @@ function Home() {
         <div className="animation">
           <h2 className="heading"> Orthodontics (Braces & Aligners)</h2>
           <div className="Service-container">
-            <img className="image-container" src="Orthodontics.jpe" />
+            <img
+              className="image-container"
+              src="./Orthodontics.jpe"
+              alt="Orthodontics Image"
+            />
             <div>
               <p className="para">
                 We offer braces and clear aligners to correct crooked teeth and
@@ -111,7 +124,11 @@ function Home() {
         <div className="animation">
           <h2 className="heading"> Root Canal Treatment</h2>
           <div className="Reverse-container">
-            <img className="flip-image-container" src="Root Canal.png" />
+            <img
+              className="flip-image-container"
+              src="./Root Canal.png"
+              alt="Root Image"
+            />
             <div>
               <p className="para">
                 We save infected or damaged teeth with painless root canal
@@ -130,7 +147,11 @@ function Home() {
         <div className="animation">
           <h2 className="heading"> Pediatric Dentistry</h2>
           <div className="Service-container">
-            <img className="image-container" src="Pediatric Dentistry.jpg" />
+            <img
+              className="image-container"
+              src="./Pediatric Dentistry.jpg"
+              alt="Pediatric Image"
+            />
             <div>
               <p className="para">
                 We provide gentle, friendly dental care for children of all
@@ -150,7 +171,11 @@ function Home() {
         <div className="animation">
           <h2 className="heading">Tooth Extraction & Wisdom Tooth Removal</h2>
           <div className="Reverse-container">
-            <img className="flip-image-container" src="Tooth Extraction.jpg" />
+            <img
+              className="flip-image-container"
+              src="./Tooth Extraction.jpg"
+              alt="Tooth Image"
+            />
             <div>
               <p className="para">
                 We perform safe and painless tooth extractions, including
@@ -171,9 +196,9 @@ function Home() {
           <p className="para">
             Click below to book your appointment with our expert dentists.
           </p>
-          <a href="#contact" className="button" id="btn">
+          <Link to="/contact" href="#contact" className="button" id="btn">
             Book your Appointment Now. . .
-          </a>
+          </Link>
         </div>
         <FAQ />
       </div>
