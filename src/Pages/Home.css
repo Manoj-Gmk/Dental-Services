@@ -1,0 +1,128 @@
+.banner{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+marquee{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #37474F;
+}
+.heading{
+    color:	#1A237E;
+    padding: 10px 15px;
+    font-size: 2.5rem;
+}
+.para{
+    font-size: 1.7rem;
+    padding: 0 20px;
+    color: #37474F;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.Service-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Reverse-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+}
+.image-container{
+  width: 44%;
+  height: 345px; 
+  padding: 10px 30px;
+  /* border-radius: 60px;  */
+  transition: 400ms;
+}
+.flip-image-container{
+   width: 40%;
+  height: 345px; 
+  margin-right: 30px;
+  margin-top: 15px;
+  transition: 400ms; 
+}
+.image-container:hover,.flip-image-container:hover{
+  transform: scale(1.02);
+}
+.Appointment{
+     padding: 20px 5px;
+}
+.button{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 9, 9);
+}
+.button:hover{
+    color: rgb(180, 21, 21);
+}
+#btn{
+  margin-left: 20px;
+}
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+.animation{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+/*FAQ*/
+.FAQ-container{
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
+.questions{
+  font-size: 1.6rem;
+}
+
+
+/*Small Screens*/
+@media (max-width: 768px) {
+  marquee{
+    font-size: 1.2rem;
+  }
+  .heading{
+    padding: 5px 12px;
+    font-size: 1.7rem;
+  }
+  .para{
+    padding-left: 12px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  .Service-container,.Reverse-container{
+    display: block;
+    align-items: center;
+  }
+  .image-container,.flip-image-container{
+    width: 100%;
+    padding: 15px;
+    border-radius: none;
+    height: auto;
+  }
+  .button{
+    font-size: 1.4rem;
+  }
+  #btn{
+    margin-left: 10px;
+  }
+  .questions{
+    font-size: 1.4rem;
+  }
+} 

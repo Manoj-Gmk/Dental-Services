@@ -1,0 +1,12 @@
+p{
+    font-size: 28px;
+    padding: 0 25px;
+    color: #37474F;
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}

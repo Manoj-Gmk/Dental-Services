@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.FAQ-container{
+    background-color: rgba(255, 255, 255, 0.461);
+    padding: 10px 25px;
+    border-radius: 12px;
+    width: 48%;
+    margin:10px;
+}
+p{
+    text-align: left;
+}
+@media (max-width: 768px) {
+    .FAQ-container{
+        width: auto;
+    }
+    .questions{
+        font-size: 1.2rem;
+    }
+}
